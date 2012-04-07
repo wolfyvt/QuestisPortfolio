@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ip_address: MyString
+  cookie: MyString
+  email: MyString
+  purpose: MyString
+  investment_amt: 1
+  years: 1
+  reg_contributions: MyString
+  withdrawels: 1
+  how_much: 1
+  how_often: MyString
+  status: MyString
+  risk1: 1
+  risk2: 1
+  risk3: 1
+
+two:
+  ip_address: MyString
+  cookie: MyString
+  email: MyString
+  purpose: MyString
+  investment_amt: 1
+  years: 1
+  reg_contributions: MyString
+  withdrawels: 1
+  how_much: 1
+  how_often: MyString
+  status: MyString
+  risk1: 1
+  risk2: 1
+  risk3: 1

@@ -1,0 +1,47 @@
+<h1>Listing surveys</h1>
+
+<table>
+  <tr>
+    <th>Ip address</th>
+    <th>Cookie</th>
+    <th>Email</th>
+    <th>Purpose</th>
+    <th>Investment amt</th>
+    <th>Years</th>
+    <th>Reg contributions</th>
+    <th>Withdrawels</th>
+    <th>How much</th>
+    <th>How often</th>
+    <th>Status</th>
+    <th>Risk1</th>
+    <th>Risk2</th>
+    <th>Risk3</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @surveys.each do |survey| %>
+  <tr>
+    <td><%= survey.ip_address %></td>
+    <td><%= survey.cookie %></td>
+    <td><%= survey.email %></td>
+    <td><%= survey.purpose %></td>
+    <td><%= survey.investment_amt %></td>
+    <td><%= survey.years %></td>
+    <td><%= survey.reg_contributions %></td>
+    <td><%= survey.withdrawels %></td>
+    <td><%= survey.how_much %></td>
+    <td><%= survey.how_often %></td>
+    <td><%= survey.status %></td>
+    <td><%= survey.risk1 %></td>
+    <td><%= survey.risk2 %></td>
+    <td><%= survey.risk3 %></td>
+    <td><%= link_to 'Show', survey %></td>
+    <td><%= link_to 'Destroy', survey, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Survey', new_survey_path %>

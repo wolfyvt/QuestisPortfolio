@@ -1,0 +1,59 @@
+<div class="field">
+    <%= f.label :ip_address %><br />
+    <%= f.text_field :ip_address %>
+  </div>
+  <div class="field">
+    <%= f.label :cookie %><br />
+    <%= f.text_field :cookie %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :purpose %><br />
+    <%= f.text_field :purpose %>
+  </div>
+  <div class="field">
+    <%= f.label :investment_amt %><br />
+    <%= f.number_field :investment_amt %>
+  </div>
+  <div class="field">
+    <%= f.label :years %><br />
+    <%= f.number_field :years %>
+  </div>
+  <div class="field">
+    <%= f.label :reg_contributions %><br />
+    <%= f.text_field :reg_contributions %>
+  </div>
+  <div class="field">
+    <%= f.label :withdrawels %><br />
+    <%= f.number_field :withdrawels %>
+  </div>
+  <div class="field">
+    <%= f.label :how_much %><br />
+    <%= f.number_field :how_much %>
+  </div>
+  <div class="field">
+    <%= f.label :how_often %><br />
+    <%= f.text_field :how_often %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :risk1 %><br />
+    <%= f.number_field :risk1 %>
+  </div>
+  <div class="field">
+    <%= f.label :risk2 %><br />
+    <%= f.number_field :risk2 %>
+  </div>
+  <div class="field">
+    <%= f.label :risk3 %><br />
+    <%= f.number_field :risk3 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
